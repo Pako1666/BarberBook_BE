@@ -1,0 +1,13 @@
+{
+    "appPort":5104,
+    "mysql":{
+        "url":"localhost:3306",
+        "username":"root",
+        "password":"GQ8!)dg}:)"
+    },
+    "mongo":{
+        "url":"localhost:27017",
+        "username":"",
+        "password":""
+    }
+}
