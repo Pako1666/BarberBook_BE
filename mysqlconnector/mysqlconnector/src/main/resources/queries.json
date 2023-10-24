@@ -1,0 +1,15 @@
+[
+  {
+      "tableName": "Utente",
+      "queries": [
+        {
+          "idQuery": "idFindAllUser",
+          "sql": "select * from $table"
+        },
+        {
+          "idQuery": "idFindUserById",
+          "sql": "select * from $table where id=$id"
+        }
+      ]
+  }
+]
