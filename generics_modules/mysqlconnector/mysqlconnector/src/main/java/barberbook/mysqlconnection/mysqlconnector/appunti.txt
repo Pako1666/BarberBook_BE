@@ -1,0 +1,4 @@
+regole validatore JSON:
+
+- tutte le tabelle devono esssere univoche, non ci possono essere èiu tabelle con lo stesso nome
+- tutte le query devono avere un nome univoco

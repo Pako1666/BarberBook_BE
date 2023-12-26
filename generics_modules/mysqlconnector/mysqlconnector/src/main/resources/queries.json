@@ -1,0 +1,23 @@
+[
+  {
+      "tableName": "Utente",
+      "queries": [
+        {
+          "idQuery": "idFindAllUser",
+          "sql": "select * from $table"
+        },
+        {
+          "idQuery": "idFindUserById",
+          "sql": "select * from $table where id='$id'"
+        },
+        {
+          "idQuery": "findUserByUsernameAndPassword",
+          "sql": "select * from $table where username = '$usr' and password = '$psw'"
+        },
+        {
+          "idQuery": "createUtente",
+          "sql": "insert into $table(id,nome,cognome,username,email,password) values('$id','$nome','$cognome','$usr','$email','$psw')"
+        }
+      ]
+  }
+]
